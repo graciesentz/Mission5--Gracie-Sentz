@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Train with me!</h1>
+<form id="hourlyRateForm">
+    <label for="hours">Enter the number of hours you want:</label>
+    <br />
+    <input type="number" id="hours" name="hours" required min="0">
+    <br />
+    <br />
+    <input type="text" id="hours" readonly value="Hourly Rate: $603">
+    <br />
+    <br />
+    <button type="button" onclick="calculateTotal()">Calculate Total</button>
+
+    <div id="totalDisplay"></div>
+
+</form>
